@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root  'tweeets#index'
+  root  'tweets#index'
   
   get 'tweets' => 'tweets#index'
   get 'tweets/new' => 'tweets#new'
